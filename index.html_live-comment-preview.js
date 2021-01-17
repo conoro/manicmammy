@@ -107,9 +107,9 @@ function updateLivePreview() {
 	}	
 	
 	var user_gravatar = '';
-	var gravatar = 'http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?';
+	var gravatar = 'https://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?';
 	if (eml != '') {
-		gravatar = 'http://www.gravatar.com/avatar/' + hex_md5(eml) + '?d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&amp;';
+		gravatar = 'https://www.gravatar.com/avatar/' + hex_md5(eml) + '?d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&amp;';
 	}
 	else if (user_gravatar != '') {
 		gravatar = user_gravatar + '?d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&amp;';
@@ -140,7 +140,7 @@ function initLivePreview() {
 }
 
 //========================================================
-// Event Listener by Scott Andrew - http://scottandrew.com
+// Event Listener by Scott Andrew - https://scottandrew.com
 // edited by Mark Wubben, <useCapture> is now set to false
 //========================================================
 function addEvent(obj, evType, fn){
@@ -163,7 +163,7 @@ addEvent(window, "load", initLivePreview);
  * Version 2.1 Copyright (C) Paul Johnston 1999 - 2002.
  * Other contributors: Greg Holt, Andrew Kepert, Ydnar, Lostinet
  * Distributed under the BSD License
- * See http://pajhome.org.uk/crypt/md5 for more info.
+ * See https://pajhome.org.uk/crypt/md5 for more info.
  */
 
 /*
